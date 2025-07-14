@@ -1,0 +1,98 @@
+----Data Science---
+
+Data science is a multidisciplinary field that combines tools, techniques,
+and principles from various areas like mathematics, statistics, computer science, and domain 
+knowledge to extract insights and knowledge from data. It involves collecting, cleaning, analyzing, and interpreting data to identify patterns, trends, and make predictions. These insights are then used to inform decision-making,
+improve business strategies, and solve complex problems
+
+
+-----Data Analysis--- 
+
+Data analysis is a process of inspecting, cleaning, transforming, and modeling data to discover useful information, make conclusions, and support decision-making. It involves using various techniques and tools to explore, understand, and extract insights from datasets. Essentially, 
+data analysis transforms raw data into actionable information that can be used to make better decisions, predict trends, and improve operational efficiency. 
+
+-----Machine learing---- 
+
+Machine learning (ML) is a subfield of artificial intelligence that enables systems to learn from
+data without explicit programming. It involves training algorithms to analyze large datasets, 
+identify patterns, and make predictions or decisions based on those patterns.
+These algorithms improve their performance over time as they are exposed to more data. 
+
+
+-----------machine learing------
+
+1  Supervised Learing  
+2 Unsupervised  Learing 
+3  semi Supervised  Learing 
+
+
+1  Supervised Learing(sample  input out given ) 
+    classification---->categorical  labels   e.g  fruit  name
+
+    Regression----> Continuous  labels  eg  price prediction
+
+2  Unsupervised Learing (only input )
+   clustor 
+   Dimensinality Reduction 
+
+
+3 SemiSupervised  learing (partial  Guidance ) 
+
+
+-----------------------------------------------------------------------------------
+Regression
+ depanded  varible (Output)
+ indepandedent  variable (Input)
+
+Regression    is method  to find  the  relationship     between  depended and   independent varible 
+it helps to make prediction  by drawing the  a straight  line  through the data point  
+
+Linear  Regression 
+
+
+Linear  regression   is a method  to find   the best  straight line   that fits  data   point 
+help to  understand  how  one varible  change with another  this line allows us to make predictions and see 
+overall trend in the  data 
+
+Logistic Regression  
+ logitic  regression   is  a statistics  technique  used  for binary classfiction 
+   where  the goal  is to predict  one of the  outcoems   e.g  spam or not spam 
+
+y=mx+b
+
+
+least squrence  Method 
+sigmoid function  
+
+x: Represents the input value (can be a weighted sum of inputs from a neural network).
+σ(x): The output of the sigmoid function, which is always between 0 and 1. 
+
+
+-----------------------------------classification--------------------------------------------  
+Classification algorithms are a type of supervised machine learning algorithm that categorize data into predefined groups or classes.
+They learn from labeled data to predict the class label for new, unseen data.These algorithms are widely 
+used for tasks like spam detection, image recognition, and medical diagnosis. 
+
+1.----Dicision--tree--Algorithm 
+
+like  flow  chart  model    that   makes  decisions  by asking   question   based    
+on data   features     leading to the clear outcome at  end  
+
+
+step 1 Attribute  selection measure   to  selcet the  root node 
+   __________ InformationGain_________
+
+step 2  find the  entropy--entropy 
+In decision trees, entropy is a measure of the impurity or disorder in a set of data.
+ When we talk about attribute selection, 
+we're trying to find the attribute that best splits our data into more "pure" subsets.
+
+entrpy= p(yes)*log2(yes)-p(no)*log2(p(no))
+step 3  find  the  weighted avg 
+e.g  
+weight avg=(60/100)*entropy(sunny) +(40/100)*Entropy(rainy)
+
+ 
+Information_gain=entropy(s) -weightedAvg =0.722-0.97=0.2 
+
+
